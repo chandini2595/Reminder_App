@@ -111,9 +111,9 @@ To set up the Reminder App locally:
 
 	    1.	Clone the repository or download the source code.
 	    2.	Create a virtual environment and install dependencies.
-      3.  Initialize the database.
-      4.  Run the app.
-      5. 	Open the app in a browser at http://127.0.0.1:5000
+      	    3.  Initialize the database.
+            4.  Run the app.
+            5. 	Open the app in a browser at http://127.0.0.1:5000
 
 This document serves as a comprehensive guide to understanding, running, and enhancing the Reminder App.
 
