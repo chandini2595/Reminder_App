@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Your Reminders</title>
+</head>
+<body>
+    <h1>Add a Reminder</h1>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <p>{{ form.content.label }} {{ form.content() }}</p>
+        <p>{{ form.submit() }}</p>
+    </form>
+    
+    <h2>Your Reminders</h2>
+    <ul>
+    {% for reminder in reminders %}
+        <li>{{ reminder.content }}</li>
+    {% endfor %}
+    </ul>
+    
+    <a href="{{ url_for('logout') }}">Logout</a>
+</body>
+</html>
